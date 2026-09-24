@@ -23,7 +23,6 @@ def clean_csv_data(df):
     return clean_df
     
 def convert_to_marla(text_value):
-
     if pd.isna(text_value):
         return None
     
@@ -31,8 +30,7 @@ def convert_to_marla(text_value):
     
     parts = text_clean.split()
     if len(parts) == 0:
-        return None
-        
+        return None       
     try:
         number = float(parts[0])
     except ValueError:
