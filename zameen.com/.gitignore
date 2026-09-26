@@ -1,0 +1,11 @@
+# Ignore raw data files
+*.csv
+*.xlsx
+
+# Ignore your log folder
+logs/
+log/
+
+# Ignore Python cache files
+__pycache__/
+.pytest_cache/
